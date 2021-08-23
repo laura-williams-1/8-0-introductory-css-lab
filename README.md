@@ -1,44 +1,52 @@
-[![Pursuit Logo](https://avatars1.githubusercontent.com/u/5825944?s=200&v=4)](https://pursuit.org)
+# Introductory CSS Lab
 
-# CSS Intro Lab
+In this lab, you'll have the opportunity to design a personal webpage. The content already exists -- you just need to style it to the best of your ability!
 
-## Getting Started 
-* Fork this repo
-* Clone the forked repository
-* `cd` to the directory where you cloned it
-* `npm install` to install dependencies
-* `npm test` to open the cypress testing window
+---
 
-> *Note*: Remember to `git add`, `git commit` and `git push` regularly
+## Lab Setup
 
-## Submission Guidelines
-  * When finished, commit and push your work.
-  * Make a pull request on github.`
-  * Submit the link to your pull request on Canvas. 
+### Getting started
 
-This repo has an `about.html` file inside of it.  Add a CSS file that creates a website that looks like the image below.  Feel free to edit the HTML however you like!
+1. Fork and clone this repository.
 
-![styledpage](./newStyledPage.png)
+1. Navigate to the cloned repository's directory on your command line. Then, run the following command:
 
-## CSS changes:
+   ```
+   npm install
+   ```
 
-- Change the font of the name header to be Luminari and blue
+   This will install the libraries needed to run the tests.
+
+1. Open up the repository in VSCode. Follow the instructions below to complete the Lab.
+
+### Tests
+
+To run the tests, you can run the following command from the command line. You will need to be in the root directory of your local directory.
+
+```
+npm test
+```
+
+This will open the Cypress testing window, where you can click to run an individual suite of tests or all of the tests at once.
+
+## Instructions
+
+To complete the tests in this lab, you will need to add the following styles. If you're unclear about any of the instructions below, remember that you can check the test file to see what exactly is being tested.
+
+- Change the font of the name header to be `'Luminari'` and blue.
 - Remove the bullet points from your unordered list of links.
-- Change the font weight in your ordered list to bold.
-- Center all li items on the page.
-- Give your li's a 1px red boarder with curved corners.
-- Change the font color of your li's to blue and the background color to a light pink.
-- All images should be 200 pixels tall
+- Change the `font-weight` in your ordered list to bold.
+- Center all `li` elements on the page.
+- Give your `li` elements a 1px red border with curved corners.
+- Change the font color of your `li` elements to blue and the background color to a light pink.
+- All images should be 200 pixels tall.
 - Change all font in the body to sans-serif.
-- Underline all h3's.
-- All p tags should have 20 pixels of padding on the top and the bottom - not on the sides.
-- h1 tags should have a 30px font size
-- Lists should have 30px of padding on the left.
+- Underline all `h3` elements.
+- All `p` tags should have 20 pixels of padding on the top and the bottom - not on the sides.
+- `h1` tags should have a 30px font size.
+- Lists should have `30px` of padding on the left.
 
-# Bonus
+After you've completed these tasks, continue styling your page to make it look unique. You should add at least _ten additional declarations_ on top of the ones you've made above.
 
-Add a button that removes all styles entirely.  Clicking the button again should replace them.
-
-HINT: You may need a new CSS file
-
-Check [here](https://stackoverflow.com/questions/19844545/replacing-css-file-on-the-fly-and-apply-the-new-style-to-the-page) for some potential solutions.
+![An example page.](./assets/example-page.png)
