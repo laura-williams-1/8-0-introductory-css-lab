@@ -4,7 +4,8 @@
   "description": "Use the HTML below for the following questions:",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/cypress open"
+    "start": "live-server --port=5001 .",
+    "test": "npx cypress open"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,8 @@
   },
   "homepage": "https://github.com/joinpursuit/Pursuit-Core-CSS-Intro-Lab#readme",
   "devDependencies": {
-    "cypress": "^8.3.1"
+    "cypress": "9.7.0",
+    "cypress-watch-and-reload": "1.10.3",
+    "live-server": "1.1.0"
   }
 }
