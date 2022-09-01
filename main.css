@@ -17,7 +17,7 @@ ol {
 }
 
 li {
-  ign: center;
+  text-align: center;
   border: 1px solid red;
   border-radius: 10px;
   color: rgb(0, 0, 255);
